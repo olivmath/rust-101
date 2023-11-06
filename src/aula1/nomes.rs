@@ -59,7 +59,7 @@ fn test_variavel_caso_de_camelo() {
 
 #[test]
 fn test_variavel_nao_descritiva() {
-    let some_variable = "Alguma Coisa";
+    let minha_casa = 122000;
     // Este teste falha porque o nome da variável não é descritivo.
     assert!(
         false,
@@ -70,10 +70,10 @@ fn test_variavel_nao_descritiva() {
 #[test]
 fn test_sem_variavel_numero_magico() {
     // Este teste falha porque um valor sem variável torna o código confuso
-    // Neste caso, o número 5 deveria ser uma variável `dolar_price`.
+    // Neste caso, o número 4.90 deveria ser uma variável `dolar_price`.
 
     assert!(
         4.90 * 100.00 == 490.00,
-        "Escolha um nome para a variável que guarda o valor do dólar."
+        "Escolha um nome para a variável que guarda o preço do dólar."
     );
 }
