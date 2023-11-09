@@ -1,20 +1,22 @@
 //! # Como dar nome às coisas?
 //!
-//! Em Rust usamos "snake_case" para variáveis e funções, por exemplo:
-//! - nome_de_uma_variavel              
-//! - outro_nome_escrito_com_snake_case
-//! - AssimEstaErrado
-//! - assim_Tambem_Esta_Errado
+//! Em Rust usamos "snake_case" como padrão para variáveis e funções, por exemplo:
+//!
+//! **Exemplos Corretos:**
+//! - nome_de_uma_variavel
+//! - total_de_itens
+//! - preco_do_cafe
+//!
+//! **Exemplos Incorretos:**
+//! - NomeDeUmaVariavel (isto é "PascalCase", usado para tipos em Rust)
+//! - outroNomeEscritoComCamelCase (isto é "camelCase", comumente usado em outras linguagens como JavaScript)
+//! - variável_com_acento (acentos e caracteres especiais não são recomendados)
+//! - 1_inicial (números não devem ser usados no início dos nomes de variáveis)
 //!
 //! **Dicas:**
-//! - os nomes devem ser descritivos, mas concisos.
-//! - os nomes devem esclarecer sobre valores guardados na variável.
-
-#[test]
-fn test_nomeando_variaveis() {
-    let lower_case_with_underscores = "Rust";
-    assert!(lower_case_with_underscores == "Rust");
-}
+//! - Seja descritivo, mas conciso.
+//! - Os nomes devem refletir o propósito da variável ou o valor que ela guarda.
+//! - Evite usar "números mágicos" diretamente no código; dê-lhes um nome significativo.
 
 #[test]
 fn test_variavel_de_letra_unica() {
@@ -74,6 +76,6 @@ fn test_sem_variavel_numero_magico() {
 
     assert!(
         4.90 * 100.00 == 490.00,
-        "Escolha um nome para a variável que guarda o preço do dólar."
+        "Escolha um nome para a variável para o 4.90"
     );
 }
