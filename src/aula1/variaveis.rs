@@ -8,7 +8,7 @@
 //! você pode usar `let mut`. Rust também permite "shadowing", onde você pode declarar uma nova variável com o mesmo nome, 
 //! efetivamente criando uma nova variável.
 
-#[test]
+#[test] 
 fn test_como_declarar_variaveis() {
     // Variáveis são declaradas com `let` e seus valores são imutáveis por padrão.
     let nome_da_variavel = "Valor da variável";
