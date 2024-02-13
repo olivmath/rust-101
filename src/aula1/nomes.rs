@@ -1,3 +1,7 @@
+// Para evitar os warnings
+#![allow(warnings)]
+
+
 //! # Como dar nome às coisas?
 //!
 //! Em Rust usamos "snake_case" como padrão para variáveis e funções, por exemplo:
@@ -17,6 +21,8 @@
 //! - Seja descritivo, mas conciso.
 //! - Os nomes devem refletir o propósito da variável ou o valor que ela guarda.
 //! - Evite usar "números mágicos" diretamente no código; dê-lhes um nome significativo.
+
+
 
 #[test]
 fn test_variavel_de_letra_unica() {

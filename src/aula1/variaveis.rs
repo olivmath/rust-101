@@ -1,3 +1,6 @@
+// Para evitar os warnings
+#![allow(warnings)]
+
 //! # Variáveis em Rust
 //!
 //! Em Rust, uma **variável** é um identificador associado a um valor que pode ser usado em seu programa. 
@@ -11,7 +14,7 @@
 #[test] 
 fn test_como_declarar_variaveis() {
     // Variáveis são declaradas com `let` e seus valores são imutáveis por padrão.
-    nome_da_variavel = "Valor da variável";
+    let nome_da_variavel = "Valor da variável";
     assert_eq!(nome_da_variavel, "Valor da variável");
 }
 
