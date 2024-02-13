@@ -11,7 +11,7 @@
 #[test] 
 fn test_como_declarar_variaveis() {
     // Variáveis são declaradas com `let` e seus valores são imutáveis por padrão.
-    let nome_da_variavel = "Valor da variável";
+    nome_da_variavel = "Valor da variável";
     assert_eq!(nome_da_variavel, "Valor da variável");
 }
 
