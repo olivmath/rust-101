@@ -1,4 +1,3 @@
-workspace = { members = ["playground"] }
 [package]
 name = "rust-101"
 version = "0.1.0"
